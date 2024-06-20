@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookiPedia</title>
+    <link rel="stylesheet" href="book.css">
+    <script src="book.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="name"><h1>BookiPedia</h1></div>
+        
+        <br>
+        <nav>
+            <ul>
+                    <li><a href="#home" onclick="showSection('home')">Home</a></li>
+                    <li><a href="#semester1.html" onclick="showSection('semester1')">Semester 1</a></li>
+                    <li><a href="#semester2.html" onclick="showSection('semester2')">Semester 2</a></li>
+                    <li><a href="#semester3.html" onclick="showSection('semester3')">Semester 3</a></li>
+                    <li><a href="#semester4.html" onclick="showSection('semester4')">Semester 4</a></li>
+                    <li><a href="#semester5.html" onclick="showSection('semester5')">Semester 5</a></li>
+                    <li><a href="#semester6.html" onclick="showSection('semester6')">Semester 6</a></li>
+                    <li><a href="#semester7.html" onclick="showSection('semester7')">Semester 7</a></li>
+                    <li><a href="#semester8.html" onclick="showSection('semester8')">Semester 8</a></li>
+                    <li><a href="#contact" onclick="showSection('contact')">Contact Us</a></li>
+                    <li><a href="#about" onclick="showSection('about')">About Us</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <div>
+        <!-- section-1 -->
+
+        <section id="home" class="content-section">
+            <h2>Welcome to BTech Reference Books</h2>
+            <center><b><p>Find the best reference books for all your BTech semesters.</p></b></center>
+                </section>
+  
+
+        <!-- section-1,2 -->
+        <section id="semester1" class="content-section">
+            <h2>Reference Books for Semester 1</h2>
+        
+                <a href="#book1" onclick="showSection('book1')">Book 1: Introduction to Programming</a>
+                <a href="#book2" onclick="showSection('book2')">Book 2: Engineering Mathematics I</a>
+                <a href="#book3" onclick="showSection('book3')">Book 3: Basic Electronics</a>
+           
+        </section>
+
+
+        <!-- section-2 -->
+
+        <section id="semester2" class="content-section">
+            <h2>Reference Books for Semester 2</h2>
+            <a href="#book4" onclick="showSection('book4')">Book 4: Data Structures</a>
+            <a href="#book5" onclick="showSection('book5')">Book 5: Mathematics-2</a>
+            
+        </section>
+
+
+        <!-- section-3 -->
+
+        <section id="semester3" class="content-section">
+            <h2>Reference Books for Semester 3</h2>
+            
+                <a href="#book6" onclick="showSection('book6')">Book 6: Database Management Systems</a>
+                <a href="#book7" onclick="showSection('book7')">Book 7: Machanics</a>
+                <a href="#book6" onclick="showSection('book8')">Book 6: OOPS</a>
+        </section>
+    
+
+        <!-- section-4 -->
+
+        <section id="semester4" class="content-section">
+            <h2>Reference Books for Semester 4</h2>
+            <a href="#book8" onclick="showSection('book9')">Book 8:COA </a>
+               <a href="#book9" onclick="showSection('book10')">Book 9: Mathematics-4</a>
+                <a href="#book10" onclick="showSection('book11')">Book 7: Operating Systems</a>
+                <a href="#book11" onclick="showSection('book12')">Book 7:Web Technology</a>
+                <a href="#book12" onclick="showSection('book13')">Book 7: Startup</a>
+        </section>
+
+
+        <!-- section-5 -->
+        <section id="semester5" class="content-section">
+            <h2>Reference Books for Semester 5</h2>
+            <a href="#book10" onclick="showSection('book14')">Book 10: Software Engineering</a>
+                <a href="#book11" onclick="showSection('book15')">Book 11: Web Technologies</a>
+            
+        </section>
+
+        <!-- section-6 -->
+        <section id="semester6" class="content-section">
+            <h2>Reference Books for Semester 6</h2>
+            <a href="#book10" onclick="showSection('book14')">Book 10: Software Engineering</a>
+                <a href="#book11" onclick="showSection('book15')">Book 11: Web Technologies</a>
+            
+        </section>
+
+
+        <!-- section-7 -->
+        <section id="semester7" class="content-section">
+            <h2>Reference Books for Semester 7</h2>
+            <a href="#book10" onclick="showSection('book14')">Book 10: Software Engineering</a>
+                <a href="#book11" onclick="showSection('book15')">Book 11: Web Technologies</a>
+            
+        </section>
+
+        <!-- section-8 -->
+        <section id="semester8" class="content-section">
+            <h2>Reference Books for Semester 8</h2>
+            <a href="#book10" onclick="showSection('book14')">Book 10: Software Engineering</a>
+                <a href="#book11" onclick="showSection('book15')">Book 11: Web Technologies</a>
+            
+        </section>
+
+        <!-- section-9 -->
+        <section id="contact" class="content-section">
+            <h2>Get in Touch</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+
+        <!-- section-10 -->
+        <section id="about" class="content-section">
+            <h2>About BTech Reference Books</h2>
+            <p>We provide a comprehensive list of reference books for all BTech semesters. Our goal is to help students find the best resources to excel in their studies.</p>
+        </section>
+
+
+        <!-- Repeat book sections agar chahiye -->
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 BTech Reference Books. All rights reserved to Team Helpdesk.</p>
+    </footer>
+</body>
+</html>
