@@ -122,6 +122,66 @@ form input, form textarea {
     margin-bottom: 1rem;
 }
 
+#contact {
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    max-width: 800px;
+}
+#contact:hover{
+    transform: translateY(-13px);
+    background-color:lemonchiffon;
+}
+#contact h2 {
+    font-size: 24px; 
+    margin-bottom: 20px;
+    text-align: center; 
+    color: #333; 
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+#contact label {
+    font-size: 16px; 
+    margin-bottom: 0px; 
+    color: #666; 
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding-right: 150px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    
+    font-size: 15px; 
+    box-sizing: border-box; 
+    display: flex;
+}
+#sub{
+    display: flex;
+    text-align: center;
+}
+
+#contact input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    width: 40%; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+#contact input[type="submit"]:hover {
+    background-color:  coral; 
+}
+
 footer {
     background-color: #333;
     color: #fff;
@@ -139,10 +199,14 @@ footer {
 
 
 /* Media Queries for Responsiveness */
-@media (max-width: 480px) {
+@media (max-width: 450px) {
     .content-section {
-        padding: 30px;
+        padding: 0px;
         width: 90%;
+        
+    }
+    nav ul{
+        display: none;
     }
 
     .content-section h2 {
@@ -152,4 +216,11 @@ footer {
     .content-section p {
         font-size: 1em;
     }
+    #contact {
+        padding: 20px; 
+    }
+   
+
+   
+    
 }
