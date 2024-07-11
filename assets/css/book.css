@@ -200,6 +200,10 @@ footer {
 
 /* Media Queries for Responsiveness */
 @media (max-width: 450px) {
+    .name{
+        margin-bottom: -20px;
+       
+    }
     .content-section {
         padding: 0px;
         width: 90%;
